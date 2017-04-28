@@ -16,7 +16,8 @@ public class User implements Serializable {
     private String bio;
     private String pic;
 
-    public User(String name, String lastName, String username, String gender, int age) {
+    public User(int id, String name, String lastName, String username, String gender, int age) {
+        this.id = id;
         this.name = name;
         this.lastName = lastName;
         this.username = username;
@@ -25,13 +26,13 @@ public class User implements Serializable {
         this.pic = "N/A";
     }
 
-    public User(String name, String lastName, String username, String gender, int age, String pic) {
-        this(name, lastName, username, gender, age);
+    public User(int id, String name, String lastName, String username, String gender, int age, String pic) {
+        this(id, name, lastName, username, gender, age);
         this.pic = pic;
     }
 
-    public User(String name, String lastName, String username, String gender, int age, String pic, String bio) {
-        this(name, lastName, username, gender, age, pic);
+    public User(int id, String name, String lastName, String username, String gender, int age, String pic, String bio) {
+        this(id, name, lastName, username, gender, age, pic);
         this.bio = bio;
     }
 
@@ -43,12 +44,12 @@ public class User implements Serializable {
         this.pic = pic;
     }
 
-    public int getId() {
-        return id;
-    }
-
     public String getName() {
         return name;
+    }
+
+    public int getId() {
+        return id;
     }
 
     public String getLastName() {

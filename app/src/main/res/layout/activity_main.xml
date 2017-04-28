@@ -27,7 +27,7 @@
                 android:textSize="20sp"
                 android:layout_centerHorizontal="true"/>
             <TextView
-                android:id="@+id/vg1_name_lastName"
+                android:id="@+id/vg1_name_lastname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="John Smith"
@@ -80,7 +80,7 @@
                 android:textSize="20sp"
                 android:layout_centerHorizontal="true"/>
             <TextView
-                android:id="@+id/vg2_name_lastName"
+                android:id="@+id/vg2_name_lastname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sarah Jonson"
@@ -132,7 +132,7 @@
                 android:textSize="20sp"
                 android:layout_centerHorizontal="true"/>
             <TextView
-                android:id="@+id/vg3_name_lastName"
+                android:id="@+id/vg3_name_lastname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sarah Jonson"
@@ -184,7 +184,7 @@
                 android:textSize="20sp"
                 android:layout_centerHorizontal="true"/>
             <TextView
-                android:id="@+id/vg4_name_lastName"
+                android:id="@+id/vg4_name_lastname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sarah Jonson"
@@ -238,7 +238,7 @@
                 android:textSize="20sp"
                 android:layout_centerHorizontal="true"/>
             <TextView
-                android:id="@+id/vg5_name_lastName"
+                android:id="@+id/vg5_name_lastname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sarah Jonson"
