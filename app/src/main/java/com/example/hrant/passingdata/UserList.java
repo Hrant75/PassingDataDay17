@@ -13,7 +13,7 @@ public class UserList {
         usersList.add(new User("Sarah", "Jonson", "SarahJ", "F", 25, "sarahjonson.jpg"));
         usersList.add(new User("Mark", "Twain", "MArkT", "M", 151, "marktwain.jpg"));
         usersList.add(new User("Mark", "Zuckerberg", "MarkZ", "M", 33, "markzuckerberg.jpg"));
-        usersList.add(new User("Elon", "Musk", "ElonM", "M", 35));
+        usersList.add(new User("Elon", "Musk", "ElonM", "M", 35, "elonmusk.jpg"));
     }
 
     public static ArrayList<User> getUsersList(){
