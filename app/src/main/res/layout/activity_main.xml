@@ -57,10 +57,8 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="1dp"
-                android:visibility="gone"
                 android:contentDescription="ewrwerwe"
-                app:srcCompat="@drawable/captainjamessmith"
-                />
+                android:visibility="gone"/>
         </RelativeLayout>
 
 
@@ -110,9 +108,8 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="1dp"
-                android:visibility="gone"
                 android:contentDescription="sdfsd"
-                app:srcCompat="@drawable/sarahjonson" />
+                android:visibility="gone"/>
         </RelativeLayout>
 
 
@@ -162,9 +159,8 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="1dp"
-                android:visibility="gone"
                 android:contentDescription="sdfsd"
-                app:srcCompat="@drawable/sarahjonson" />
+                android:visibility="gone"/>
         </RelativeLayout>
 
 
@@ -208,17 +204,14 @@
             android:id="@+id/vg4_pic_view_group"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
-
             <ImageView
                 android:id="@+id/vg4_pic"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="1dp"
-                android:visibility="gone"
                 android:contentDescription="sdfsd"
-                app:srcCompat="@drawable/sarahjonson" />
+                android:visibility="gone"/>
         </RelativeLayout>
 
 
@@ -255,7 +248,6 @@
                 android:textSize="40sp"
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"/>
-
         </RelativeLayout>
 
         <RelativeLayout
@@ -268,9 +260,8 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="1dp"
-                android:visibility="gone"
                 android:contentDescription="sdfsd"
-                app:srcCompat="@drawable/sarahjonson" />
+                android:visibility="gone"/>
         </RelativeLayout>
     </LinearLayout>
 </ScrollView>
