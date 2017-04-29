@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.hrant.passingdata.EditActivity">
 
+
     <EditText
         android:id="@+id/edit_view_name"
         android:layout_width="wrap_content"
