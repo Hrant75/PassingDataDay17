@@ -12,7 +12,9 @@ import android.widget.TextView;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
-
+//https://en.wikipedia.org/wiki/Trachtenberg_system
+    //http://www.vogella.com/tutorials/AndroidIntent/article.html
+    //https://developer.android.com/training/basics/firstapp/starting-activity.html
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         int viewGroupId, nameLastnameId, genderId, picId;
@@ -24,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             viewGroupId = getResources().getIdentifier("view_group_" + user.getId(), "id", getApplicationContext().getPackageName());
             picId = getResources().getIdentifier("vg" + user.getId() + "_pic", "id", getApplicationContext().getPackageName());
 
-            if(user.getGender().equals("F")) {
+            if(user.getGender().equals("F") || user.getGender().equals("f")) {
                 findViewById(viewGroupId).setBackgroundColor(getResources().getColor(R.color.colorAccent));
                 ((ImageView)findViewById(picId)).setBackgroundResource(R.drawable.f);
             }
@@ -56,7 +58,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-
         String idStr = getResources().getResourceName(v.getId());
         String idNumber = idStr.substring(idStr.length()-1);
         int picId = getResources().getIdentifier("vg" + idNumber + "_pic", "id", getApplicationContext().getPackageName());
